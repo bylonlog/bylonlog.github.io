@@ -1,0 +1,21 @@
+- name: myNEU Redesign
+  url: https://bchiang7.github.io/Redesign-myNEU/
+  code: https://github.com/bchiang7/Redesign-myNEU
+  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
+  used:
+    - thing: Jekyll
+    - thing: HTML
+    - thing: SCSS
+    - thing: JavaScript
+
+- name: Crowd DJ
+  url: https://github.com/crowddj/crowddj-react
+  code: https://github.com/crowddj/crowddj-react
+  description:
+    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
+    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
+  used:
+    - thing: React
+    - thing: Sass
+    - thing: Firebase
+    - thing: Spotify API
