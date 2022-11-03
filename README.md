@@ -1,5 +1,12 @@
 # Static Web Page
+Card like webpage design 🏆
 
-First of all,<br>
-It's 🏆 really simple and stupid 🏆<br>
-Live preview available
+## Live Preview
+https://bylonlog.github.io
+
+## Information
+
+```
+lang: HTML,CSS & Javascript
+
+```
