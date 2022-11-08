@@ -149,7 +149,7 @@ body{
 }
 
 .name{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 500;
     line-height: 1;
@@ -228,7 +228,7 @@ body{
     color: #c4c4c4;
     font-size: 1.3rem;
     text-decoration: none;
-    margin-right: 8px;
+    margin-right: 5px;
     transition: .3s;
 }
 
