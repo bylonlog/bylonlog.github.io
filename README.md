@@ -16,11 +16,11 @@ Profile Card like UI
 ## Browser's Tested
 
 ```
-Chromium
-Mozilla Firefox
-Gnome Web (Uses WebKit) / Safari
-Brave Browser
-Opera \ Tested Only During Certain Times
++ Chromium
++ Mozilla Firefox
++ Gnome Web (Uses WebKit) / Safari
++ Brave Browser
++ Opera \ Tested Only During Certain Times
 
 ```
 ## Issues Known
