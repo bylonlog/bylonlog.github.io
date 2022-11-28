@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Discover &amp; share this Cubiq GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <meta property="fb:app_id" content="406655189415060">
+    <meta property="og:site_name" content="GIPHY">
+    <meta property="og:url" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif">
+    <meta property="og:title" content="Cubiq GIF - Find &amp; Share on GIPHY">
+    <meta property="og:description" content="Discover &amp; share this Cubiq GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs.">
+
+    
+
+    
+    <meta property="og:type" content="video.other">
+    <meta property="og:image" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif">
+    <meta property="og:image:type" content="image/gif">
+    <meta property="og:image:width" content="480">
+    <meta property="og:image:height" content="270">
+    
+    
+    <meta property="og:video" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.mp4">
+    <meta property="og:video:url" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.mp4">
+    <meta property="og:video:secure_url" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.mp4">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="480">
+    <meta property="og:video:height" content="270">
+    
+
+    <meta name="twitter:account_id" content="1020383864" />
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:title" content="Cubiq GIF - Find &amp; Share on GIPHY">
+    <meta name="twitter:creator" content="cubiqagency">
+    <meta name="twitter:site" content="@giphy">
+    <meta name="twitter:description" content="Discover &amp; share this Cubiq GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs.">
+    
+    <meta name="twitter:image:src" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy_s.gif">
+    <meta name="twitter:image" content="https://i.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy_s.gif">
+    
+    <meta name="twitter:domain" content="giphy.com">
+
+    
+    <meta name="twitter:player" content="https://giphy.com/embed/Q7uOdyJVELR7B7UsUe/twitter/iframe">
+    <meta name="twitter:player:width" content="435">
+    <meta name="twitter:player:height" content="244">
+    
+
+    
+    <meta name="rating" content="general">
+    <meta name="image:rating" content="g">
+    
+
+    <!-- /twitter seo -->
+
+    <meta name="description" content="Discover &amp; share this Cubiq GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs."/>
+    <meta name="author" content="GIPHY"/>
+    <meta name="keywords" content="logo, creative, agency, designer, logo build, cubiq design, cubiq logo, GIF, Animated GIF">
+    <meta name="pinterest" content="nohover">
+
+    
+    <link rel="alternate" type="application/json+oembed" href="https://giphy.com/services/oembed?url=https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif" title="Cubiq GIF - Find &amp; Share on GIPHY oEmbed Lookup" />
+    
+    <title>Cubiq GIF - Find &amp; Share on GIPHY</title>
+  </head>
+  <body style="background-color:#121212">
+    <article class="media">
+        
+        <img src="https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w_s.gif" alt=""
+            style="position:absolute;left:50%;top:50%;width:480px;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);" />
+        
+    </article>
+
+    <!--DIDOMI-->
+    <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+      else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+      var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+      if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+        var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("8878f527-7872-49a5-abd4-f6b2e56cb64a")})();</script>          <!-- END DIDOMI -->
+
+    <!-- Google Analytics -->
+    <script type="didomi/javascript" data-vendor="c:googleana-jHcphUGX">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38174542-34', 'auto');
+    ga('require', 'GTM-WXRB58X');
+    
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    <script src="/static/dist/runtime.4d3916e4.bundle.js"></script>
+    <script src="/static/dist/mediaLanding.7547a3fd.bundle.js"></script>
+    <script>
+        var Giphy = Giphy || {};
+        if (Giphy.renderMediaLanding) {
+            Giphy.renderMediaLanding(document.querySelector('.media'), {
+                gif: {"id": "Q7uOdyJVELR7B7UsUe", "title": "Cubiq GIF", "images": {"looping": {"mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy-loop.mp4", "mp4_size": 321757}, "source": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/source.gif", "width": 600, "height": 338, "size": 180254}, "downsized": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif", "width": 480, "height": 270, "size": 100784}, "downsized_large": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif", "width": 480, "height": 270, "size": 100784}, "downsized_medium": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif", "width": 480, "height": 270, "size": 100784}, "downsized_small": {"width": 480, "height": 270, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy-downsized-small.mp4", "mp4_size": 34743}, "downsized_still": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy_s.gif", "width": 480, "height": 270, "size": 100784}, "fixed_height": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200.gif", "width": 356, "height": 200, "size": 65272, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200.mp4", "mp4_size": 28811, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200.webp", "webp_size": 28588}, "fixed_height_downsampled": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200_d.gif", "width": 356, "height": 200, "size": 12441, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200_d.webp", "webp_size": 9864}, "fixed_height_small": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100.gif", "width": 178, "height": 100, "size": 29577, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100.mp4", "mp4_size": 16058, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100.webp", "webp_size": 15058}, "fixed_height_small_still": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100_s.gif", "width": 178, "height": 100, "size": 490}, "fixed_height_still": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200_s.gif", "width": 356, "height": 200, "size": 880}, "fixed_width": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w.gif", "width": 200, "height": 113, "size": 31736, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w.mp4", "mp4_size": 17473, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w.webp", "webp_size": 16890}, "fixed_width_downsampled": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w_d.gif", "width": 200, "height": 113, "size": 6542, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w_d.webp", "webp_size": 5404}, "fixed_width_small": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100w.gif", "width": 100, "height": 57, "size": 14962, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100w.mp4", "mp4_size": 9514, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100w.webp", "webp_size": 8822}, "fixed_width_small_still": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/100w_s.gif", "width": 100, "height": 57, "size": 305}, "fixed_width_still": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/200w_s.gif", "width": 200, "height": 113, "size": 507}, "original": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.gif", "width": 480, "height": 270, "size": 100784, "frames": 44, "hash": "8128f89902736d69c923c6158a2067f0", "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.mp4", "mp4_size": 39779, "webp": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.webp", "webp_size": 38128}, "original_mp4": {"width": 480, "height": 270, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy.mp4", "mp4_size": 39779}, "original_still": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy_s.gif", "width": 480, "height": 270, "size": 1525}, "preview": {"width": 480, "height": 270, "mp4": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy-preview.mp4", "mp4_size": 34743}, "preview_gif": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy-preview.gif", "width": 480, "height": 270, "size": 24836}, "preview_webp": {"url": "https://media0.giphy.com/media/Q7uOdyJVELR7B7UsUe/giphy-preview.webp", "width": 480, "height": 270, "size": 38128}}, "is_video": false, "tags": ["logo", "creative", "agency", "designer", "logo build", "cubiq design", "cubiq logo"], "cta": {"text": "", "link": ""}, "featured_tags": [], "embed_url": "https://giphy.com/embed/Q7uOdyJVELR7B7UsUe", "relative_url": "/gifs/logo-build-cubiq-design-Q7uOdyJVELR7B7UsUe", "type": "gif", "index_id": 94738368, "slug": "logo-build-cubiq-design-Q7uOdyJVELR7B7UsUe", "url": "https://giphy.com/gifs/logo-build-cubiq-design-Q7uOdyJVELR7B7UsUe", "short_url": "https://gph.is/g/Z7WWj90", "bitly_url": "https://gph.is/g/Z7WWj90", "username": "CubiqAgency", "rating": "g", "source_image_url": "/tmp/akka-http-upload3859168106429656486.tmp.gif", "source_post_url": "Cubiq", "source_content_url": "", "source_tld": "", "source_domain": "://", "source_caption": "", "source_body": "", "has_attribution": false, "is_hidden": false, "is_removed": false, "is_community": false, "is_anonymous": false, "is_featured": false, "is_realtime": false, "is_indexable": false, "is_sticker": false, "is_preserve_size": false, "is_trending": false, "gps_no_trend": false, "create_datetime": "2020-04-23T10:31:26+0000", "update_datetime": "2020-04-27T20:01:19+0000", "trending_datetime": null, "external_media": null, "import_type": null, "user": {"id": 21905816, "username": "CubiqAgency", "avatar_url": "https://media.giphy.com/avatars/CubiqAgency/SIZTxp5vJXzR.jpg", "display_name": "Cubiq", "user_type": "partner", "twitter": "cubiqagency", "is_public": true, "is_verified": false, "is_freelance": false, "is_community": false, "suppress_chrome": false, "website_url": "https://www.cubiq.co.uk/", "twitter_url": "https://twitter.com/cubiqagency", "facebook_url": "https://www.facebook.com/pg/CubiqAgency", "instagram_url": "https://instagram.com/cubiqagency", "tumblr_url": null, "tiktok_url": null, "youtube_url": null, "attribution_display_name": "Cubiq", "disable_freelance_popup": false, "name": "Cubiq", "about_bio": "Founded in 2004, and still privately owned and managed by John and Gemma Treby. Cubiq is a Top 10 UK Agency, and over the years has been recognised by The Drum, Recommended Agency Register, Suffolk Future 50 and various Top 100 listings.", "description": "Founded in 2004, and still privately owned and managed by John and Gemma Treby. Cubiq is a Top 10 UK Agency, and over the years has been recognised by The Drum, Recommended Agency Register, Suffolk Future 50 and various Top 100 listings.", "profile_url": "/cubiqagency", "website_display_url": "www.cubiq.co.uk"}},
+                giphyUrl: 'https://giphy.com/',
+                renditionFilename: 'giphy.gif',
+                trackingQueryString: 'utm_source=media-link&utm_medium=landing&utm_campaign=Media%20Links&utm_term=https://giphy.com/'
+            });
+        }
+    </script>
+  </body>
+</html>
