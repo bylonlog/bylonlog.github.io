@@ -128,7 +128,7 @@ body{
 
 .sub-name{
     font-family: 'Cutive Mono', monospace;
-    font-size: 1.1rem;
+    font-size: 1rem;
     opacity: .8;
     color: #fff;
 }
@@ -189,7 +189,14 @@ body{
     font-weight: 300;
     line-height: 1.7;
 }
-
+.more{
+    text-decoration: none;
+}
+.more:hover{
+    text-decoration: underline;
+    transition-delay: 2s;
+    transition-duration: 3s;
+}
 .icons-container{
     padding: .7rem 0;
 }
@@ -201,6 +208,9 @@ body{
     height: 20px;
     display: inline;
     filter: contrast(0%);
+}
+.icon:hover{
+    filter:contrast(60%)
 }
 
 .buttons-wrap{
@@ -229,7 +239,7 @@ body{
     text-decoration: none;
     font-size: .7rem;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     border-radius: 18.1px;
     margin-right: 3px;
 }
@@ -243,7 +253,7 @@ body{
     text-align: center;
     font-size: .7rem;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     margin-left: 3px;
     border-radius: 18.1px;
 }
@@ -347,7 +357,7 @@ body{
         font-size: 1.1rem;
     } 
     .sub-name{
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .content{
@@ -376,11 +386,13 @@ body{
     }
 
     .icons-container{
-        padding: .5rem 0;
+        padding: .4rem 0;
     }
 
     .icon{
-        font-size: 1.1rem;
+        font-size: 1rem;
+        width: 18px;
+    height: 18px;
     }
 
     .follow{
