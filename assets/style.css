@@ -33,7 +33,8 @@ body{
     height: 270px;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, #00f2fe, #4facfe);
+    background-image: linear-gradient(to top, #F761A1, #8C1BAB);
+    background-image: url(to top, assets/img/blob.svg);
     clip-path: circle(400px at 50% -48.5%);
 }
 
@@ -89,7 +90,7 @@ body{
     height: 110px;
     border-radius: 50%;
     background: url('img/profile.jpg') no-repeat center / cover;
-    border: 4px solid #00d8fe;
+    border: 4px solid #b838a6;
     margin-bottom: 2px;
     overflow: hidden;
     cursor: pointer;
@@ -233,7 +234,7 @@ body{
 .follow{
     padding: 9.6px 0;
     width: 100%;
-    background: linear-gradient(to right, #4facfe 0%, #00f2fe 140%);
+    background: linear-gradient(to right, #8C1BAB 0%, #F761A1 140%);
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -247,8 +248,8 @@ body{
 .share{
     padding: 7.6px 0;
     width: 100%;
-    border: 2px solid #4facfe;
-    color: #4facfe;
+    border: 2px solid #F761A1;
+    color: #F761A1;
     text-decoration: none;
     text-align: center;
     font-size: .7rem;
