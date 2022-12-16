@@ -1,12 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'squiggle14', squiggle14;
-}
-
+	/* Dark Theme */
+		@media (prefers-color-scheme: dark) {
+		
 body{
-     background-image: url('bg.png');
+    background-image: url('bgd.png');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -23,9 +19,9 @@ body{
 .card{
     position: relative;
     width: 400px;
-    background-color: #fff;
+    background-color: #181a1b;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 1.1);
     overflow: hidden;
 }
 
@@ -36,7 +32,7 @@ body{
     height: 270px;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, #00f2fe, #4facfe);
+    background-image: linear-gradient(to top, #00a9c0, #0068a5);
     clip-path: circle(400px at 50% -48.5%);
 }
 
@@ -92,7 +88,7 @@ body{
     height: 110px;
     border-radius: 50%;
     background: url('img/profile.jpg') no-repeat center / cover;
-    border: 4px solid #00d8fe;
+    border: 4px solid #0098b3;
     margin-bottom: 2px;
     overflow: hidden;
     cursor: pointer;
@@ -133,7 +129,7 @@ body{
     font-family: 'Cutive Mono', monospace;
     font-size: 1rem;
     opacity: .8;
-    color: #fff;
+    color: #b9d9db;
 }
 
 .content{
@@ -154,13 +150,13 @@ body{
 .number{
     font-size: 2.1rem;
     font-weight: 200;
-    color: #333;
+    color: #9c978e;
     line-height: 1.2;
 }
 
 .number-title{
     font-size: .55rem;
-    color: #666;
+    color: #9c978e;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 1px;
@@ -169,7 +165,7 @@ body{
 
 .title{
     position: relative;
-    color: #555;
+    color: #9c978e;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0 0 3px 0;
@@ -188,7 +184,7 @@ body{
 }
 
 .text{
-    color: #666;
+    color: #9c978e;
     font-weight: 300;
     line-height: 1.7;
 }
@@ -236,7 +232,7 @@ body{
 .follow{
     padding: 9.6px 0;
     width: 100%;
-    background: linear-gradient(to right, #4facfe 0%, #00f2fe 140%);
+    background: linear-gradient(to right, #015da0 0%, #0097b9 140%);
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -250,7 +246,7 @@ body{
 .share{
     padding: 7.6px 0;
     width: 100%;
-    border: 2px solid #4facfe;
+    border: 2px solid #024e92;
     color: #4facfe;
     text-decoration: none;
     text-align: center;
