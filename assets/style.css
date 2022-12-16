@@ -6,10 +6,7 @@
 }
 
 body{
-     background-image: url('bg.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+background-color: #f7f7f7;
 }
 
 .container{

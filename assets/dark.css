@@ -2,10 +2,8 @@
 		@media (prefers-color-scheme: dark) {
 		
 body{
-    background-image: url('bgd.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: #111111;
+   
 }
 
 .container{
