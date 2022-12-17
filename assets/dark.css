@@ -4,7 +4,6 @@
 body{
     background-image: url('bgd.svg');
  background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
    
 }
