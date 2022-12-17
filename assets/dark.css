@@ -2,7 +2,10 @@
 		@media (prefers-color-scheme: dark) {
 		
 body{
-    background-color: #111111;
+    background-image: url('bgd.svg');
+ background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
    
 }
 
