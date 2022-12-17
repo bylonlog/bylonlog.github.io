@@ -1,12 +1,9 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'squiggle14', squiggle14;
-}
-
+	/* Dark Theme */
+		@media (prefers-color-scheme: dark) {
+		
 body{
-background-color: #f7f7f7;
+    background-color: #111111;
+   
 }
 
 .container{
@@ -20,9 +17,9 @@ background-color: #f7f7f7;
 .card{
     position: relative;
     width: 400px;
-    background-color: #fff;
+    background-color: #181a1b;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 1.1);
     overflow: hidden;
 }
 
@@ -33,7 +30,7 @@ background-color: #f7f7f7;
     height: 270px;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, #00f2fe, #4facfe);
+    background-image: linear-gradient(to top, #00a9c0, #0068a5);
     clip-path: circle(400px at 50% -48.5%);
 }
 
@@ -42,18 +39,18 @@ background-color: #f7f7f7;
     height: 265px;
 }
 
-.menu{
+.mail{
     position: absolute;
-    width: 48px;
-    height: 42px;
-    top: .2rem;
+    width: 59px;
+    height: 56px;
+    top: 0rem;
     right: .3rem;
     z-index: 3;
     transition: .3s;
-    opacity: .9;
+    opacity: .8;
 }
 
-.menu:hover{
+.mail:hover{
     opacity: 1;
 }
 
@@ -89,7 +86,7 @@ background-color: #f7f7f7;
     height: 110px;
     border-radius: 50%;
     background: url('img/profile.jpg') no-repeat center / cover;
-    border: 4px solid #00d8fe;
+    border: 4px solid #0098b3;
     margin-bottom: 2px;
     overflow: hidden;
     cursor: pointer;
@@ -121,7 +118,7 @@ background-color: #f7f7f7;
 .name{
     font-size: 1.3rem;
     color: #fff;
-    font-weight: 520;
+    font-weight: 500;
     line-height: .8;
     margin: 5px 0;
 }
@@ -130,7 +127,7 @@ background-color: #f7f7f7;
     font-family: 'Cutive Mono', monospace;
     font-size: 1rem;
     opacity: .8;
-    color: #fff;
+    color: #b9d9db;
 }
 
 .content{
@@ -151,13 +148,13 @@ background-color: #f7f7f7;
 .number{
     font-size: 2.1rem;
     font-weight: 200;
-    color: #333;
+    color: #9c978e;
     line-height: 1.2;
 }
 
 .number-title{
     font-size: .55rem;
-    color: #666;
+    color: #9c978e;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 1px;
@@ -166,7 +163,7 @@ background-color: #f7f7f7;
 
 .title{
     position: relative;
-    color: #555;
+    color: #9c978e;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0 0 3px 0;
@@ -185,7 +182,7 @@ background-color: #f7f7f7;
 }
 
 .text{
-    color: #666;
+    color: #9c978e;
     font-weight: 300;
     line-height: 1.7;
 }
@@ -233,7 +230,7 @@ background-color: #f7f7f7;
 .follow{
     padding: 9.6px 0;
     width: 100%;
-    background: linear-gradient(to right, #4facfe 0%, #00f2fe 140%);
+    background: linear-gradient(to right, #015da0 0%, #0097b9 140%);
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -247,7 +244,7 @@ background-color: #f7f7f7;
 .share{
     padding: 7.6px 0;
     width: 100%;
-    border: 2px solid #4facfe;
+    border: 2px solid #024e92;
     color: #4facfe;
     text-decoration: none;
     text-align: center;
