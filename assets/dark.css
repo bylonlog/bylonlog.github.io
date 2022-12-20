@@ -190,11 +190,13 @@ body{
 }
 .more{
     text-decoration: none;
+    color: #0069a5;
 }
 .more:hover{
     text-decoration: underline;
     transition-delay: 2s;
     transition-duration: 3s;
+    color: red;
 }
 .icons-container{
     padding: .7rem 0;
