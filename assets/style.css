@@ -348,7 +348,14 @@ background-image: url('bg.svg');
         height: 230px;
     }
 
- 
+ .container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     margin-top: 5px;
+}
 
     .main .image{
         width: 90px;
