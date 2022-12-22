@@ -12,7 +12,7 @@ background-color: #f7f7f7;
 
 .container{
     padding: 20px;
-    top: 20px;
+    top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,7 @@ background-color: #f7f7f7;
 
 .card{
     position: relative;
+    margin-top: 8px;
     top: 70px;
     width: 400px;
     background-color: #fff;
