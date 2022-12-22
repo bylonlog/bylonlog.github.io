@@ -12,6 +12,7 @@ background-color: #f7f7f7;
 
 .container{
     padding: 20px;
+    top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
