@@ -6,9 +6,7 @@
 }
 
 body{
-background-image: url('bg.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+background-color: #f7f7f7;
  
 }
 
