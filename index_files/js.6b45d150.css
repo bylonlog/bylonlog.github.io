@@ -48,7 +48,7 @@ section {
 
 .heading-primary {
     font-weight: 400;
-    color: #fff;
+    color: black;
     opacity: 1;
     display: inline-block;
     font-size: 4.8rem
@@ -184,13 +184,14 @@ section {
 .btn__hire:link,
 .btn__hire:visited {
     opacity: .9;
-    color: black;
+    color: white;
     border: 1px solid #fff;
-    background-color: white;
+    background-color: #293335;
     overflow:hidden;
 }
 .btn__hire:hover{
-   color: #fff;
+   color: #293335;
+   border: 1px solid #454f50;
    background-color:transparent;
 }
 .icon{
@@ -485,7 +486,7 @@ filter:grayscale(50%);
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)), url(img/macc.jpg);
+    background-color:#f7f7f7;
     background-size: cover;
     background-position: 50%;
     text-align: center
@@ -506,7 +507,7 @@ filter:grayscale(50%);
     max-width: 50rem;
     margin: 0 auto;
     font-size: 1.8rem;
-    color: #fff;
+    color: black;
     opacity: .9
 }
 
@@ -535,9 +536,17 @@ filter:grayscale(50%);
 
 .intro {
     text-align: center;
-    background: #f4f4f4
+    background: #f4f4f4;
+    padding: 4rem 5rem 0rem;
+    border-radius:15px;
+    margin-left:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); 
 }
-
+.btnn{
+margin-bottom:1em;
+}
 @media (min-width:768px) {
     .intro {
         padding: 8rem 0
@@ -545,7 +554,14 @@ filter:grayscale(50%);
 }
 
 .craft {
-    background: #f9f9f9
+    background: #f4f4f4;
+    padding: 4rem 5rem 0rem;
+    border-radius:15px;
+    margin-left:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+    margin-top:1em;
+   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); 
 }
 
 .craft .row {
@@ -575,7 +591,8 @@ filter:grayscale(50%);
     padding: 2rem 1rem;
     background: #fff;
     box-shadow: 1 .4rem .4rem rgba(0, 0, 0, .3);
-    border-radius: 15px
+    border-radius: 15px;
+    margin-bottom:1em;
 }
 
 .craft__item:first-of-type {
@@ -667,13 +684,14 @@ filter:grayscale(50%);
 
 .footer {
 
-    background: #293335;
+    background: #f4f4f4;
     color: #91abaa;
     padding: 4rem 5rem 0rem;
     border-radius:15px;
     margin-left:1em;
     margin-right:1em;
     margin-bottom:1em;
+   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); 
 }
 
 .footer__social-links {
@@ -713,10 +731,10 @@ filter:grayscale(50%);
 
 .footer__outro {
     text-align: center;
-    max-width: 114rem;
+    max-width: 100rem;
     margin: 0 auto;
-    padding: 3rem 1rem 4rem;
-    border-top: 1px solid #394344
+    padding: 3rem 1rem 3rem;
+    border-top: 1px solid #c6c6c6;
 }
 
 @media (min-width:768px) {
@@ -736,7 +754,8 @@ filter:grayscale(50%);
 }
 
 .footer__info {
-    font-size: 1.8rem
+    font-size: 1.8rem;
+    color:#6b6b6b;
 }
 
 @media (min-width:768px) {
@@ -750,7 +769,8 @@ filter:grayscale(50%);
     border-bottom: 1px dashed;
     color: inherit;
     text-decoration: none;
-    transition: all .2s
+    transition: all .2s;
+    color: #6b6b6b;
 }
 
 .footer__info a:hover {
@@ -758,7 +778,7 @@ filter:grayscale(50%);
 }
 
 .footer .number {
-    color: #91abaa !important;
+    color: #6b6b6b !important;
     margin: 2rem 0 0;
     font-size: 1.8rem;
     text-decoration: none
