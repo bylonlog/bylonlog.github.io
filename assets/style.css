@@ -47,11 +47,6 @@ background-image: url('bg.svg');
 }
 
 .menu{
-    position: absolute;
-    width: 48px;
-    height: 42px;
-    top: .2rem;
-    right: .3rem;
     z-index: 3;
     transition: .3s;
     opacity: .9;
