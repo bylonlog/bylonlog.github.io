@@ -22,22 +22,75 @@
     <link rel="stylesheet" type="text/css" href="assets/darkk.css">
     <title>Personal WebPage | @BylonLog</title>
     <link rel="icon" type="image/png" href="assets/img/icon.png"/>
+    <style>
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 14px;
+  height:40px;
+  font-size: 16px;
+  border-radius: 5px;
+  border:1px solid transparent;
+  cursor: pointer;
+  transform: rotate(0deg);
+  float:right;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:40px;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius:5px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
 </head>
 <body>
-
+    
     <div class="modal">
         <img src="assets/img/icon1.gif" alt="">
         <div class="close"></div>
     </div>
     
+            
     <div class="container">
+    
         <div class="card">
+        <div class="dropdown menu" style="float:right;">
+  <button class="dropbtn menu"><b>Menu</b></button>
+  <div class="dropdown-content">
+    <a href="/">Go Home</a>
+    <a href="#">Blog'S</a>
+    <a href="404">404 eror</a>
+  </div>
+</div>
             <div class="header">
                 <a href="/" class="logo"><img src="assets/img/icons/logo.png" class="logo"></a>
 
-                <a href="list.html" class="menu"><img src="assets/img/icons/menu.png" class="menu"></a>
 
                 <div class="main">
+                
                     <div class="image">
                         <div class="hover">
                             <i class="fas fa-camera fa-2x"></i>
