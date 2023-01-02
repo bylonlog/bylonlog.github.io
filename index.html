@@ -31,6 +31,7 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
         <link href="index_files/css.css" rel="stylesheet">
         <script src="index_files/js/js.f91db0e0.js" defer="defer"></script>
         <link rel="stylesheet" href="index_files/js.6b45d150.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css" />
         <link rel="icon" type="image/png" href="index_files/icons/icon.png"/>
 </head>
 
@@ -58,12 +59,13 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
         <header class="header" role="banner" id="header">
         
                 <div class="header__text-box">
-                <img class="image" src="index_files/one.svg" ><br>
+                <img class="image" src="one.svg" ><br>
                         <h1 class="heading-primary"><strong>ALBIN S</strong></h1>
                         <hr />
                         <p class="header__description">
 
 Just Beware Of This User,🕵🏻 he Use Arch BTW (Bye The Way)👻. A Design Minded One Who's Still Learning New Stuff, FOSS Supporter && Cyber Enthusiast.</p><br>
+<button class="btn, button_slide slide_diagonal" id="theme-toggle">Switch to dark mode</button><br>
                         <div class="icon">
      <a href="https://instagram.com/bylonlog"><img class="icon" src="index_files/icons/insta.png"></img></a>..
      <a href="https://t.me/bylonlog"><img class="icon" src="index_files/icons/telegram.png"></img></a>..
@@ -75,7 +77,25 @@ Just Beware Of This User,🕵🏻 he Use Arch BTW (Bye The Way)👻. A Design Mi
                 </div>
                
         </header>
-        
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+    const themeStylesheet = document.getElementById('theme');
+    const themeToggle = document.getElementById('theme-toggle');
+    themeToggle.addEventListener('click', () => {
+        // if it's light -> go dark
+        if(themeStylesheet.href.includes('light')){
+            themeStylesheet.href = 'dark-theme.css';
+            themeToggle.innerText = 'Switch to light mode';
+        } else {
+            // if it's dark -> go light
+            themeStylesheet.href = 'light-theme.css';
+            themeToggle.innerText = 'Switch to dark mode';
+
+        }
+    })
+})
+        </script>
                                
             
         <script>for (var e = document.querySelector(".navigation__checkbox"), n = document.querySelectorAll(".navigation__link"), c = 0; c < n.length; ++c)n[c].addEventListener("click", function () { e.checked = !1 });</script>

@@ -22,6 +22,32 @@ margin-left:2px;
 height:200px;
     }
 }
+.btn{
+
+}
+.button_slide {
+  color: black;
+  border: 2px solid #42ada6;
+  border-radius: 14px;
+  padding: 9px 18px;
+  margin-bottom:5px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #42ada6;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #42ada6;
+}
+
+
 body {
 background-color: f7f7f7;
     
@@ -407,7 +433,6 @@ font-family: 'kaiju_monster__gregular';
     margin-bottom:1em;
    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); 
 }
-
 
 
 

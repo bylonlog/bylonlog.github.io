@@ -1,0 +1,94 @@
+
+
+	/* Dark Theme */
+		@media (prefers-color-scheme: dark) {
+		body {
+background-color: #14191a;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.btn{
+background-color: red;
+}
+.button_slide {
+  color: black;
+  border: 2px solid #42ada6;
+  border-radius: 14px;
+  padding: 9px 18px;
+  margin-bottom:5px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #42ada6;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #42ada6;
+}
+
+
+		.heading-primary {
+font-family: 'kaiju_monster__gregular';
+    font-weight: 200;
+    color: #42ada6;
+    opacity: 1;
+    display: inline-block;
+    font-size: 4.8rem;
+    text-align: left;
+}
+@media (min-width:768px) {
+    .heading-primary {
+        font-size: 6.8rem;
+        font-family: 'kaiju_monster__gregular';
+    }
+}
+.header__description {
+font-family: 'kaiju_monster__gregular';
+    max-width: 90rem;
+    font-size: 1.8rem;
+    color: #89a3af;
+    opacity: .7;
+    text-align:left;
+}
+@media (min-width:768px) {
+    .header__description {
+    font-family: 'kaiju_monster__gregular';
+        width: 80%;
+        font-size: 2.5rem;
+        text-align:left;
+    }
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    color:#14191a;
+}
+hr {
+   width: 30%;
+   height: 1px;
+   border: 0 none;
+   background-color: #333d41;
+   text-align:left;
+   color:black;
+}
+
+@media (min-width:768px) {
+hr{
+   width: 15%;
+   height: 1px;
+   border: 0 none;
+   background-color: #333d41;
+   text-align:left;
+   }
+}
+		}
