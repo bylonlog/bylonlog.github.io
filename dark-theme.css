@@ -2,6 +2,32 @@
 
 	/* Dark Theme */
 		@media (prefers-color-scheme: dark) {
+		
+		*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'East Sea Dokdo', cursive;
+}
+.image{
+width:280px;
+height:160px;
+border-radius:15px;
+margin:10px;
+margin-left:2px;
+}
+@media (min-width:768px) {
+    .image {
+        width:400px;
+height:200px;
+    }
+}
 		body {
 		font-family: 'East Sea Dokdo', cursive;
 background-color: #14191a;
@@ -58,6 +84,27 @@ float:right;
 .slide_diagonal:hover {
   box-shadow: inset 400px 50px 0 0 #42ada6;
 }
+p {
+    line-height: 1.7;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+
+
+.intro-text {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    text-align: left;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+@media (min-width:768px) {
+    .intro-text {
+        font-size: 2.4rem;
+        max-width: 70rem
+    }
+}
 
 
 		.heading-primary {
@@ -79,7 +126,7 @@ float:right;
 font-family: 'East Sea Dokdo', cursive;
     max-width: 90rem;
     font-size: 1.8rem;
-    color: #89a3af;
+    color: white;
     opacity: .7;
     text-align:left;
 }
@@ -89,6 +136,74 @@ font-family: 'East Sea Dokdo', cursive;
         width: 80%;
         font-size: 2.5rem;
         text-align:left;
+        color: white;
+    }
+}
+
+.heading-secondary {
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-align:left;
+    color:white;
+}
+
+.heading-secondary:after {
+    content: "";
+    display: block;
+    margin: 2rem auto;
+    height: 2px;
+    width: 12rem;
+    background-color: #777
+}
+
+@media (min-width:768px) {
+    .heading-secondary:after {
+        margin: 3rem auto
+    }
+}
+
+@media (min-width:768px) {
+    .heading-secondary {
+        font-size: 4.5rem
+    }
+}
+
+.heading-tertiary {
+    font-size: 2.2rem;
+    font-weight: 00
+}
+
+@media (min-width:768px) {
+    .heading-tertiary {
+        font-size: 2.4rem
+    }
+}
+
+.u-text-center {
+    text-align: left !important
+}
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+@media (min-width:768px) {
+    .row {
+        display: table
+    }
+}
+
+@media (min-width:768px) {
+    .row [class^=col-] {
+        width: calc(50% - 8rem);
+        float: left
     }
 }
 .icon{
@@ -96,6 +211,9 @@ font-family: 'East Sea Dokdo', cursive;
     height: 30px;
     display: inline;
     color:#14191a;
+}
+.icon:hover{
+filter:grayscale(10%);
 }
 hr {
    width: 30%;
@@ -115,4 +233,257 @@ hr{
    text-align:left;
    }
 }
+.navigation__checkbox {
+    display: none
+}
+
+.navigation__button {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 300;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
+    cursor: pointer
+}
+
+@media (min-width:768px) {
+    .navigation__button {
+        top: 4rem;
+        right: 4rem;
+        height: 7rem;
+        width: 7rem
+    }
+}
+
+.navigation__background {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: #293335;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 100;
+    transition: all .8s cubic-bezier(.86, 0, .07, 1)
+}
+
+@media (min-width:768px) {
+    .navigation__background {
+        top: 4.5rem;
+        right: 4.5rem;
+        height: 6rem;
+        width: 6rem
+    }
+}
+
+.navigation__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    opacity: 0;
+    width: 0;
+    visibility: hidden;
+    z-index: 200;
+    transition: all .8s cubic-bezier(.68, -.55, .265, 1.55)
+}
+
+.navigation__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    list-style: none
+}
+
+.navigation__item {
+    margin: 1rem
+}
+
+.navigation__link:link,
+.navigation__link:visited {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    color: #91abaa;
+    font-size: 2.4rem;
+    text-decoration: none;
+    transition: all .2s
+}
+
+@media (min-width:768px) {
+
+    .navigation__link:link,
+    .navigation__link:visited {
+        font-size: 3.8rem
+    }
+}
+
+.navigation__link:link span,
+.navigation__link:visited span {
+    margin-right: 1.5rem;
+    display: inline-block
+}
+
+.navigation__link:hover {
+    color: #f4f4f4;
+    transform: scale(1.1)
+}
+
+.navigation__checkbox:checked~.navigation__background {
+    transform: scale(80)
+}
+
+.navigation__checkbox:checked~.navigation__nav {
+    width: 100%;
+    visibility: visible;
+    opacity: 1
+}
+
+.navigation__icon {
+    position: relative;
+    margin-top: 2.5rem
+}
+
+@media (min-width:768px) {
+    .navigation__icon {
+        margin-top: 3.5rem
+    }
+}
+
+.navigation__icon,
+.navigation__icon:after,
+.navigation__icon:before {
+    display: inline-block;
+    width: 2.2rem;
+    height: 2px;
+    background-color: #555
+}
+
+@media (min-width:768px) {
+
+    .navigation__icon,
+    .navigation__icon:after,
+    .navigation__icon:before {
+        width: 3rem
+    }
+}
+
+.navigation__icon:after,
+.navigation__icon:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s
+}
+
+.navigation__icon:before {
+    top: -.8rem
+}
+
+.navigation__icon:after {
+    top: .8rem
+}
+
+.navigation__button:hover .navigation__icon:before {
+    top: -1rem
+}
+
+.navigation__button:hover .navigation__icon:after {
+    top: 1rem
+}
+
+.navigation__checkbox:checked+.navigation__button .navigation__icon {
+    background-color: transparent
+}
+
+.navigation__checkbox:checked+.navigation__button .navigation__icon:before {
+    top: 0;
+    transform: rotate(135deg)
+}
+
+.navigation__checkbox:checked+.navigation__button .navigation__icon:after {
+    top: 0;
+    transform: rotate(-135deg)
+}
+
+
+.header {
+font-family: 'East Sea Dokdo', cursive;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.header__text-box {
+font-family: 'East Sea Dokdo', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 114rem;
+    max-width: 150rem;
+    transform: translate(-50%, -50%);
+    opacity: .95
+}
+
+.header__description {
+font-family: 'East Sea Dokdo', cursive;
+    max-width: 90rem;
+    font-size: 1.8rem;
+    color: black;
+    opacity: .7;
+    text-align:left;
+}
+
+@media (min-width:768px) {
+    .header__description {
+    font-family: 'East Sea Dokdo', cursive;
+        width: 80%;
+        font-size: 2.5rem;
+        text-align:left;
+    }
+}
+
+.header__director {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding-bottom: 1rem;
+    transform: translateX(-50%);
+    color: #fff;
+    opacity: .7
+}
+
+@media (min-width:768px) {
+    .header__director {
+        font-size: 1.7rem
+    }
+}
+
+.intro {
+    text-align: left;
+    background: #f4f4f4;
+    font-family: 'East Sea Dokdo', cursive;
+    padding: 4rem 5rem 0rem;
+    border-radius:15px;
+    margin-left:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); 
+}
+
+
+
 		}
