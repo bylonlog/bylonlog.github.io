@@ -18,7 +18,7 @@ background-color: red;
 .button_slide {
 float:right;
   color: black;
-  border: 2px solid #42ada6;
+  border: 2px solid transparent;
   border-radius: 14px;
   padding: 9px 18px;
   padding: 5px 7px;
@@ -38,7 +38,7 @@ float:right;
 .button_slide {
 float:right;
   color: black;
-  border: 2px solid #42ada6;
+  border: 2px solid transparent;
   border-radius: 14px;
  padding: 8px 16px;
   margin-top:4%;
