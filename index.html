@@ -21,6 +21,7 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
         <meta property="og:description" content="  
 ALBIN S
 Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)👻. A Design Minded One Who's Still learning, FOSS Supporter And Cyber Enthusiast.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
         <meta property="og:image" content="/meta.68c3c419.jpg">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="BylonLog | Personal Page">
@@ -33,6 +34,7 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
         <link rel="stylesheet" href="index_files/js.6b45d150.css">
         <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css" />
         <link rel="icon" type="image/png" href="index_files/icons/icon.png"/>
+        <style> @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap'); </style>
 </head>
 
 <body>
@@ -41,7 +43,9 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
                         for="nav-toggle" class="navigation__button"> <span class="navigation__icon"
                                 aria-label="toggle navigation menu">&nbsp;</span> </label>
                 <div class="navigation__background">&nbsp;</div>
+                   <button class="btn, button_slide slide_diagonal" id="theme-toggle">DarkMode</button>
                 <nav class="navigation__nav" role="navigation">
+               
                         <ul class="navigation__list">
                                 <li class="navigation__item"> <a href="#header"
                                                 class="navigation__link"><span>01</span>Go Homepage</a> </li>
@@ -65,7 +69,7 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
                         <p class="header__description">
 
 Just Beware Of This User,🕵🏻 he Use Arch BTW (Bye The Way)👻. A Design Minded One Who's Still Learning New Stuff, FOSS Supporter && Cyber Enthusiast.</p><br>
-<button class="btn, button_slide slide_diagonal" id="theme-toggle">Switch to dark mode</button><br>
+<br>
                         <div class="icon">
      <a href="https://instagram.com/bylonlog"><img class="icon" src="index_files/icons/insta.png"></img></a>..
      <a href="https://t.me/bylonlog"><img class="icon" src="index_files/icons/telegram.png"></img></a>..
@@ -86,11 +90,11 @@ Just Beware Of This User,🕵🏻 he Use Arch BTW (Bye The Way)👻. A Design Mi
         // if it's light -> go dark
         if(themeStylesheet.href.includes('light')){
             themeStylesheet.href = 'dark-theme.css';
-            themeToggle.innerText = 'Switch to light mode';
+            themeToggle.innerText = 'LightMode';
         } else {
             // if it's dark -> go light
             themeStylesheet.href = 'light-theme.css';
-            themeToggle.innerText = 'Switch to dark mode';
+            themeToggle.innerText = 'DarkMode';
 
         }
     })

@@ -3,6 +3,7 @@
 	/* Dark Theme */
 		@media (prefers-color-scheme: dark) {
 		body {
+		font-family: 'East Sea Dokdo', cursive;
 background-color: #14191a;
     
     background-size: cover;
@@ -11,17 +12,21 @@ background-color: #14191a;
 }
 
 .btn{
+font-family: 'East Sea Dokdo', cursive;
 background-color: red;
 }
 .button_slide {
+float:right;
   color: black;
   border: 2px solid #42ada6;
   border-radius: 14px;
   padding: 9px 18px;
-  margin-bottom:5px;
+  padding: 5px 7px;
+  margin-top:7%;
+  margin-right:20%;
   display: inline-block;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 18px;
   letter-spacing: 1px;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #42ada6;
@@ -29,7 +34,26 @@ background-color: red;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
 }
-
+@media (min-width:768px) {
+.button_slide {
+float:right;
+  color: black;
+  border: 2px solid #42ada6;
+  border-radius: 14px;
+ padding: 8px 16px;
+  margin-top:4%;
+  margin-right:8.5%;
+  display: inline-block;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #42ada6;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+}
 
 .slide_diagonal:hover {
   box-shadow: inset 400px 50px 0 0 #42ada6;
@@ -37,7 +61,7 @@ background-color: red;
 
 
 		.heading-primary {
-font-family: 'kaiju_monster__gregular';
+		font-family: 'East Sea Dokdo', cursive;
     font-weight: 200;
     color: #42ada6;
     opacity: 1;
@@ -48,11 +72,11 @@ font-family: 'kaiju_monster__gregular';
 @media (min-width:768px) {
     .heading-primary {
         font-size: 6.8rem;
-        font-family: 'kaiju_monster__gregular';
+        font-family: 'East Sea Dokdo', cursive;
     }
 }
 .header__description {
-font-family: 'kaiju_monster__gregular';
+font-family: 'East Sea Dokdo', cursive;
     max-width: 90rem;
     font-size: 1.8rem;
     color: #89a3af;
@@ -61,7 +85,7 @@ font-family: 'kaiju_monster__gregular';
 }
 @media (min-width:768px) {
     .header__description {
-    font-family: 'kaiju_monster__gregular';
+    font-family: 'East Sea Dokdo', cursive;
         width: 80%;
         font-size: 2.5rem;
         text-align:left;
